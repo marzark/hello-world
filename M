@@ -1,0 +1,269 @@
+  PID TTY          TIME CMD
+    1 ?        00:00:12 systemd
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 rcu_gp
+    4 ?        00:00:00 rcu_par_gp
+    9 ?        00:00:00 mm_percpu_wq
+   10 ?        00:01:14 ksoftirqd/0
+   11 ?        00:03:12 rcu_sched
+   12 ?        00:00:04 migration/0
+   13 ?        00:00:00 idle_inject/0
+   14 ?        00:00:00 cpuhp/0
+   15 ?        00:00:00 cpuhp/1
+   16 ?        00:00:00 idle_inject/1
+   17 ?        00:00:04 migration/1
+   18 ?        00:00:00 ksoftirqd/1
+   21 ?        00:00:00 cpuhp/2
+   22 ?        00:00:00 idle_inject/2
+   23 ?        00:00:04 migration/2
+   24 ?        00:00:02 ksoftirqd/2
+   27 ?        00:00:00 cpuhp/3
+   28 ?        00:00:00 idle_inject/3
+   29 ?        00:00:03 migration/3
+   30 ?        00:00:01 ksoftirqd/3
+   33 ?        00:00:00 kdevtmpfs
+   34 ?        00:00:00 netns
+   35 ?        00:00:00 rcu_tasks_kthre
+   36 ?        00:00:00 kauditd
+   38 ?        00:00:00 khungtaskd
+   39 ?        00:00:00 oom_reaper
+   40 ?        00:00:00 writeback
+   41 ?        00:00:01 kcompactd0
+   42 ?        00:00:00 ksmd
+   43 ?        00:00:00 khugepaged
+  136 ?        00:00:00 kintegrityd
+  137 ?        00:00:00 kblockd
+  138 ?        00:00:00 blkcg_punt_bio
+  140 ?        00:00:00 tpm_dev_wq
+  141 ?        00:00:00 ata_sff
+  142 ?        00:00:00 md
+  143 ?        00:00:00 edac-poller
+  144 ?        00:00:00 devfreq_wq
+  145 ?        00:00:00 watchdogd
+  148 ?        00:00:56 kswapd0
+  150 ?        00:00:00 ecryptfs-kthrea
+  153 ?        00:00:00 kthrotld
+  154 ?        00:00:00 acpi_thermal_pm
+  156 ?        00:00:00 ipv6_addrconf
+  167 ?        00:00:00 kstrp
+  186 ?        00:00:00 charger_manager
+  225 ?        00:02:51 irq/119-ELAN050
+  235 ?        00:00:00 scsi_eh_0
+  236 ?        00:00:00 scsi_tmf_0
+  237 ?        00:00:00 scsi_eh_1
+  239 ?        00:00:00 scsi_tmf_1
+  243 ?        00:00:00 cryptd
+  328 ?        00:00:12 jbd2/sda1-8
+  329 ?        00:00:00 ext4-rsv-conver
+  373 ?        00:00:14 systemd-journal
+  396 ?        00:00:06 systemd-udevd
+  411 ?        00:00:00 kworker/0:0H-events_highpri
+  424 ?        00:00:00 kworker/2:1-events
+  464 ?        00:00:00 irq/123-ACPI:Ev
+  512 ?        00:00:00 kworker/0:0-events
+  518 ?        00:00:00 cfg80211
+  527 ?        00:00:00 ath10k_wq
+  528 ?        00:00:00 ath10k_aux_wq
+  531 ?        00:00:00 kmemstick
+  553 ?        00:00:32 systemd-resolve
+  555 ?        00:00:01 systemd-timesyn
+  556 ?        00:00:48 haveged
+  561 ?        00:00:00 kworker/2:2
+  565 ?        00:00:02 systemd-logind
+  566 ?        00:00:00 ModemManager
+  567 ?        00:00:18 udisksd
+  570 ?        00:00:00 cron
+  573 ?        00:00:06 avahi-daemon
+  575 ?        00:00:18 thermald
+  576 ?        00:00:00 bluetoothd
+  579 ?        00:00:05 accounts-daemon
+  606 ?        00:00:00 networkd-dispat
+  607 ?        00:00:02 rsyslogd
+  608 ?        00:00:14 irqbalance
+  609 ?        00:00:01 acpid
+  610 ?        00:03:53 dbus-daemon
+  611 ?        00:00:54 wpa_supplicant
+  612 ?        00:04:31 NetworkManager
+  661 ?        00:00:31 chrome
+  694 ?        00:00:00 chrome
+  709 ?        00:00:00 avahi-daemon
+  719 ?        00:00:39 polkitd
+  724 ?        00:00:00 mpd
+  727 ?        00:00:00 unattended-upgr
+  753 pts/3    00:00:02 dolphin
+  762 ?        00:00:00 sddm
+  775 ?        00:00:00 tags.so
+  776 ?        00:00:00 trash.so
+  778 ?        00:00:00 file.so
+  780 ?        00:00:00 file.so
+  781 ?        00:00:00 thumbnail.so
+  788 tty1     00:55:02 Xorg
+  789 ?        00:00:00 kworker/2:1H-events_highpri
+  792 ?        00:00:00 kworker/1:0-events
+  796 ?        00:00:00 kworker/3:2H-kblockd
+  812 ?        00:00:00 kworker/u8:3-events_unbound
+  824 ?        00:00:00 whoopsie
+  826 ?        00:00:12 kerneloops
+  828 ?        00:00:13 kerneloops
+  837 ?        00:00:00 sddm-helper
+  844 ?        00:00:01 systemd
+  845 ?        00:00:00 (sd-pam)
+  861 ?        00:00:00 kworker/1:0H-events_highpri
+  862 ?        00:00:00 kworker/0:1H-events_highpri
+  863 ?        00:00:00 kworker/u8:4-phy0
+  866 ?        00:00:00 kworker/0:3H-kblockd
+  868 ?        00:16:09 pulseaudio
+  869 ?        00:00:00 startkde
+  885 ?        00:00:27 dbus-daemon
+  886 ?        00:00:02 rtkit-daemon
+  913 ?        00:00:01 konsole
+  917 ?        00:00:00 ssh-agent
+  918 pts/4    00:00:00 bash
+  934 ?        00:00:00 krfcommd
+  949 pts/4    00:00:00 man
+  953 ?        00:00:00 start_kdeinit
+  954 ?        00:00:00 kdeinit5
+  961 pts/4    00:00:00 pager
+  971 ?        00:00:07 kaccess
+  985 ?        00:00:05 kglobalaccel5
+  987 ?        00:00:00 kworker/3:0-events
+  988 ?        00:00:08 kactivitymanage
+  994 ?        00:00:00 dconf-service
+ 1002 ?        00:00:00 chrome
+ 1010 ?        00:00:00 kwrapper5
+ 1011 ?        00:00:10 ksmserver
+ 1015 ?        01:18:20 kwin_x11
+ 1018 ?        00:01:09 baloo_file
+ 1020 ?        00:00:05 kscreen_backend
+ 1022 ?        00:00:41 krunner
+ 1024 ?        00:42:52 plasmashell
+ 1031 ?        00:00:05 polkit-kde-auth
+ 1033 ?        00:00:05 xembedsniproxy
+ 1035 ?        00:00:21 upowerd
+ 1046 ?        00:00:04 gmenudbusmenupr
+ 1047 ?        00:00:00 konsole
+ 1052 ?        00:00:26 kdeconnectd
+ 1059 pts/5    00:00:00 bash
+ 1063 ?        00:00:00 at-spi-bus-laun
+ 1068 ?        00:00:01 dbus-daemon
+ 1077 ?        00:00:00 agent
+ 1078 pts/5    00:00:00 ps
+ 1083 ?        00:00:12 org_kde_powerde
+ 1152 ?        00:00:00 obexd
+ 1196 ?        00:00:11 kwalletd5
+ 1746 ?        00:00:10 akonadi_control
+ 1750 ?        00:00:06 akonadiserver
+ 1757 ?        00:03:28 mysqld
+ 1799 ?        00:00:05 akonadi_akonote
+ 1800 ?        00:00:05 akonadi_archive
+ 1801 ?        00:00:04 akonadi_birthda
+ 1802 ?        00:00:04 akonadi_contact
+ 1803 ?        00:00:21 akonadi_followu
+ 1804 ?        00:00:21 akonadi_ical_re
+ 1805 ?        00:00:04 akonadi_indexin
+ 1807 ?        00:00:05 akonadi_maildir
+ 1808 ?        00:00:21 akonadi_maildis
+ 1810 ?        00:00:05 akonadi_mailfil
+ 1811 ?        00:00:04 akonadi_migrati
+ 1812 ?        00:00:05 akonadi_newmail
+ 1815 ?        00:00:21 akonadi_notes_a
+ 1816 ?        00:00:22 akonadi_sendlat
+ 1818 ?        00:00:05 akonadi_unified
+ 2037 ?        00:04:04 kio_http_cache_
+ 2291 ?        00:00:00 gpg-agent
+ 2368 ?        00:00:00 kdeinit5
+ 2373 ?        00:00:05 klauncher
+ 2436 ?        00:00:00 kworker/u9:2-hci0
+ 3089 ?        00:00:00 irq/124-mei_txe
+ 3806 ?        00:00:32 konsole
+ 3811 pts/0    00:00:03 bash
+ 4006 ?        00:01:32 kded5
+ 4473 ?        00:00:02 file.so
+ 6198 ?        00:00:04 baloorunner
+ 6585 ?        00:00:00 loop0
+ 6766 ?        00:00:57 snapd
+ 6899 ?        00:00:00 loop1
+ 6990 ?        00:00:00 loop2
+ 7102 ?        00:00:00 loop3
+ 7561 ?        00:24:39 chrome
+ 7569 ?        00:00:34 cat
+ 7570 ?        00:00:00 cat
+ 7573 ?        00:00:00 chrome
+ 7574 ?        00:00:00 nacl_helper
+ 7577 ?        00:00:02 chrome
+ 7597 ?        00:39:12 chrome
+ 7600 ?        00:04:42 chrome
+ 8356 ?        00:00:17 chrome
+ 8459 ?        00:00:03 chrome
+ 8694 ?        00:00:09 chrome
+ 8736 ?        00:00:01 chrome
+ 9081 ?        00:00:00 kworker/u9:1-hci0
+10270 ?        00:00:26 xdg-desktop-por
+10274 ?        00:00:00 xdg-document-po
+10277 ?        00:00:00 xdg-permission-
+10290 ?        00:00:03 xdg-desktop-por
+10299 ?        00:00:06 at-spi2-registr
+10438 ?        00:43:48 ktorrent
+15518 ?        00:00:26 chrome
+16377 ?        00:00:02 kworker/1:2H-events_highpri
+16911 ?        00:00:44 kmail
+16934 ?        00:00:00 QtWebEngineProc
+16936 ?        00:00:00 QtWebEngineProc
+20392 ?        00:00:00 cupsd
+20393 ?        00:00:01 cups-browsed
+20398 ?        00:00:00 dbus
+23698 ?        00:00:00 chrome
+25260 ?        00:00:01 kworker/3:1H-kblockd
+25280 ?        00:00:00 kworker/2:2H-kblockd
+25754 ?        00:02:17 chrome
+25768 ?        00:00:06 chrome
+26821 ?        00:02:01 chrome
+26882 ?        00:00:31 chrome
+27566 ?        00:00:03 konsole
+27570 pts/3    00:00:00 bash
+27607 ?        00:00:04 kworker/u8:1-phy0
+28595 ?        00:00:16 chrome
+28671 ?        00:00:00 kworker/3:1-events
+28934 pts/3    00:04:05 transmission-gt
+29043 ?        00:00:00 kworker/2:0-events
+29060 ?        00:00:00 kworker/0:1-events
+29093 ?        00:00:23 plasma-discover
+29551 ?        00:00:19 chrome
+29568 ?        00:01:20 chrome
+29584 ?        00:00:45 chrome
+29730 ?        00:00:04 konsole
+29734 pts/2    00:00:00 bash
+30153 ?        00:00:00 kworker/0:2H-kblockd
+31170 ?        00:05:17 chrome
+31204 ?        00:00:01 kworker/u8:2-events_unbound
+31207 ?        00:00:01 chrome
+31234 ?        00:00:05 chrome
+31246 ?        00:00:57 chrome
+31258 ?        00:00:01 chrome
+31273 ?        00:00:01 chrome
+31284 ?        00:00:01 chrome
+31303 ?        00:00:01 chrome
+31316 ?        00:00:02 chrome
+31326 ?        00:00:03 chrome
+31336 ?        00:00:01 chrome
+31342 ?        00:00:01 chrome
+31351 ?        00:00:01 chrome
+31373 ?        00:00:02 chrome
+31438 ?        00:00:01 chrome
+31450 ?        00:00:00 chrome
+31472 ?        00:00:00 kworker/3:3-events
+31528 ?        00:00:01 chrome
+31539 ?        00:00:00 chrome
+31549 ?        00:00:01 chrome
+31573 ?        00:00:00 kworker/1:2-mm_percpu_wq
+31659 ?        00:00:00 kworker/3:0H-kblockd
+31709 ?        00:04:54 chrome
+31781 ?        00:00:00 kworker/2:3-events
+31831 ?        00:00:00 chrome
+31844 ?        00:00:00 chrome
+31854 ?        00:00:00 chrome
+31891 ?        00:00:00 kworker/2:0H-kblockd
+32156 ?        00:00:02 chrome
+32218 ?        00:00:00 kworker/1:1-events
+32240 ?        00:00:00 kworker/u8:0-phy0
+32310 ?        00:00:00 kworker/1:1H-events_highpri
